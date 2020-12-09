@@ -4,7 +4,7 @@ import './App.css';
 import Welcome from './component/Welcome';
 import List from './component/List';
 import Refs from './component/Refs';
-// import UpdatedComponent from './component/Hoc';
+import UpdatedComponent from './component/Hoc';
 import ClickCounter from './component/ClickCounter';
 import HoverCounter from './component/HoverCounter';
 import Counter from './component/Counter';
@@ -22,7 +22,7 @@ function App() {
       {/* <Refs /> */}
       <Counter render={(count, handleClick)=> (<ClickCounter count={count} handleClick={handleClick}/>)}/>
       <Counter render={(count, handleClick)=> (<HoverCounter count={count} handleClick={handleClick}/>)}/>
-      {/* <UpdatedComponent incrtementCount={incrtementCount}> */}
+      <UpdatedComponent incrtementCount={incrtementCount} />
       <userProvider name='Poushali'>
       <ComponentC />
       </userProvider>

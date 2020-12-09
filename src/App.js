@@ -16,8 +16,8 @@ function App() {
   
   return (
     <div>
-      {/* <Welcome />
-      <List /> */}
+      <Welcome />
+      <List />
       {/* <Parent /> */}
       {/* <Refs /> */}
       <Counter render={(count, handleClick)=> (<ClickCounter count={count} handleClick={handleClick}/>)}/>
